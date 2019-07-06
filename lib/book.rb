@@ -41,20 +41,24 @@ class Shoe
     @brand = brand
   end
 
-  def title
-    @title
+  def brand=(brand)
+    @brand = brand
   end
 
-  def author=(author)
-    @author = author
+  def brand
+    @brand
   end
 
-  def author
-    @author
+  def color=(color)
+    @color = author
   end
 
-  def page_count=(num)
-    @page_count = num
+  def color
+    @color
+  end
+
+  def size=(size)
+    @size = size
   end
 
   def page_count
