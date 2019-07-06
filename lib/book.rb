@@ -84,7 +84,7 @@ class Shoe
     @condition = condition
   end
 
-  def turn_page
+  def cobble
     puts "Flipping the page...wow, you read fast!"
   end
 end
