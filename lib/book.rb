@@ -64,6 +64,10 @@ class Shoe
     @size = size
   end
 
+  def size
+    @size
+  end
+  
   def page_count
     @page_count
   end
