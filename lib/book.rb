@@ -68,8 +68,12 @@ class Shoe
     @size
   end
 
-  def page_count
-    @page_count
+  def material
+    @material
+  end
+
+  def material=(material)
+    @material = material
   end
 
   def genre=(genre)
