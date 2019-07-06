@@ -37,11 +37,11 @@ class Book
 end
 
 class Shoe
-  def initialize(brand, color, size, material)
+  def initialize(brand)
     @brand = brand
-    @color = color
-    @size = size
-    @material = material
+    #@color = color
+    #@size = size
+    #@material = material
   end
 
   def brand=(brand)
